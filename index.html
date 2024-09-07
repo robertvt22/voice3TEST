@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary Conjugation Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h1>Vocabulary Conjugation Test</h1>
+        <div id="word-container">
+            <p id="word"></p>
+        </div>
+        <div class="input-group">
+            <label for="english-present">English Present (3rd person):</label>
+            <input type="text" id="english-present" class="english1field">
+            <button type="button" class="listen-button english1" id="listen-english-present">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="english-preterit">English Preterit:</label>
+            <input type="text" id="english-preterit" class="english2field">
+            <button type="button" class="listen-button english2" id="listen-english-preterit">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="english-perfect">English Perfect:</label>
+            <input type="text" id="english-perfect" class="english3field">
+            <button type="button" class="listen-button english3" id="listen-english-perfect">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="german-present">German Present (3rd person):</label>
+            <input type="text" id="german-present" class="german1field">
+            <button type="button" class="listen-button german1" id="listen-german-present">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="german-imperfect">German Imperfect:</label>
+            <input type="text" id="german-imperfect" class="german2field">
+            <button type="button" class="listen-button german2" id="listen-german-imperfect">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="german-auxiliary">German Auxiliary Verb (3rd person):</label>
+            <input type="text" id="german-auxiliary" class="german3field">
+            <button type="button" class="listen-button german3" id="listen-german-auxiliary">🔊 Listen</button>
+        </div>
+        <div class="input-group">
+            <label for="german-perfect">German Perfect:</label>
+            <input type="text" id="german-perfect" class="german4field">
+            <button type="button" class="listen-button german4" id="listen-german-perfect">🔊 Listen</button>
+        </div>
+        <button id="submit-button">Submit</button>
+        <button id="next-word-button">Next Word</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
